@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Exercice 1</h1>
+    <img src="logo_javascript.png" alt="logo javascript" id="logojs" onclick="afficher('logojs')">
+    <img src="logo_java.png" alt="logo java" id="logoja" onclick="afficher('logoja')">
+    <p id="info"></p>
+
+    <hr>
+    <h1>Exercice 2</h1>
+    <p>Voir console</p>
+
+    <hr>
+    <h1>Exercice 3</h1>
+
+    <h2>Sommaire</h2>
+    <ol id="liste" type="I">
+        <li><a href="#chap1">Chapitre 1</a></li>
+    </ol>
+
+    <input type="text" id="chapTitle">
+    <input type="button" value="Ajouter" id="add" onclick="ajouterNewChapter(this)">
+
+   <!--  <input type="button" value="Ajouter" id="add" onclick="ajouterNewChapter()"> -->
+
+   <hr>
+   <br>
+   <div id="panier">
+        <div>
+            <span>produit1</span>
+            <button onclick="deleteB(this)">X</button>
+        </div>
+        <div>
+            <span>produit2</span>
+            <button onclick="deleteB(this)">X</button>
+        </div>
+        <div>
+            <span>produit3</span>
+            <button onclick="deleteB(this)">X</button>
+        </div>
+   </div>
+   
+    <script src="scripts.js"></script>
+</body>
+</html>
